@@ -2,7 +2,7 @@
 body{
 	font-family: sans-serif;
 	margin-left: 1px;
-	margin-right: 5px
+	margin-right: 3px
 }
 
 .octocat img{
@@ -11,7 +11,7 @@ body{
 	border: 1px solid #585858;
 	bottom: 0;
 	left: 0;
-	margin: 3px;
+	margin: 5px;
 	border-bottom: 1px solid #585858;
 	border-radius: 5px;
 }
@@ -25,11 +25,13 @@ body{
 
 .octocat{
 	float: left;
+	margin: 3px;
 	border-bottom: 1px solid #585858
 }
 
 ul{
 	list-style: none;
+	font-weight: bold;
 }
 
 .image-number: :before {
@@ -42,12 +44,12 @@ ul{
 	margin-bottom: 5px;
 	margin-top: 2px;
 	float: right;
+	color: gray;
 }
 
 .authors img{
 	float: right;
 	margin-right: 0;
-
 }
 
 .image-footer{
@@ -63,11 +65,20 @@ border-style: solid;
 border-width: 8.7px 5px 0 5px;
 border-color: #262626 transparent transparent transparent;
 right: 7px;
-top: -7px;
+top: -9px;
 }
 
 .authors{
 	display: inline-block;
 	padding: right;
 	padding-left: 5px;
+	vertical-align: middle;
+}
+
+.image-caption a{
+	color: black;
+	text-decoration: none;
+}
+
+
 }
